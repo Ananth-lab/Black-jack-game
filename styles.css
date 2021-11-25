@@ -1,0 +1,30 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+body {
+    background-image: url("/Assets/cards.jpg");
+    background-position: center;
+    background-size: cover;
+    font-size: 1.2rem;
+}
+.container-main{
+    padding-top:3rem;
+    width : 50%;
+    height : 75vh;
+    background-color: rgba(134, 255, 134, 0.568);
+    margin: 5rem auto;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 10px 10px 10px rgb(56, 55, 55);
+}
+#container{
+    display: none;
+}
+#container-sub{
+    display: none;
+}
+input{  
+    display: block;
+    margin : 1rem auto;
+}
